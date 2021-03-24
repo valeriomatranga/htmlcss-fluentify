@@ -1,0 +1,125 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.bg>header{
+    background-color: rgba(12, 50, 90, 1);
+}
+
+header{
+    height: 550px;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
+    position: relative;
+
+}
+
+main{
+    height: 1200px;
+    background-color: burlywood;    
+}
+
+footer{
+    height: 200px;
+    background-color: cornflowerblue;
+}
+/*****************
+ nav 
+ *****************/
+.menu{
+    height: 60px;
+    width: 90%;
+    margin: auto;
+}
+
+.container{  
+    height: 100%;
+    width: 100%;  
+    display: inline-block;
+    margin: 20px 10px ;
+    line-height: 60px;
+}
+
+.logo{
+    width: 10%;
+}
+
+.sinistro{
+    width: 45%;
+}
+
+.destro{
+    width: 45%;
+    text-align: right;
+}
+
+.logo, .sinistro, .destro{
+    float: left;
+}
+
+ul>li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+    text-transform:uppercase ;
+}
+
+.bot{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.log{
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+
+.str{
+    background-color:rgba(124, 187, 2, 1) ;
+}
+
+.log:hover{
+    color:rgba(124, 187, 2, 1) ;
+    font-size: 15px;
+    border:1px solid rgba(124, 187, 2, 1) ;
+}
+
+.str:hover{
+    border: 2px solid green;
+    background-color:rgba(125, 187, 2, 0.39);
+}
+
+/************* 
+/nav
+ *************/
+
+.titolo{
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 3rem;
+} 
